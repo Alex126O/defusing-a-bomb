@@ -7,10 +7,10 @@ body{
     justify-content: center;
     align-content: center;
     width: 430px;
-
-
 }
-.container>div{
+
+
+.container div{
     width: 100px;
     height: 100px;
     background-color: chartreuse;
@@ -47,7 +47,7 @@ body{
     font-family: 'Source Code Pro', monospace;
     /* background-image: url("img/hg-cu-dirtydirtydirty-overlay.webp"); */
 }
-.zero{
+.container2 button:last-child{
     position: relative;
     left: 130px;
 
@@ -62,4 +62,7 @@ h1{
     color: aliceblue;
     position: relative;
     left: 120px;
+}
+.timer{
+    color: #fff;
 }
